@@ -57,8 +57,8 @@ const Navbar = () => {
               &times;
             </button>
             <ul className="flex flex-col space-y-8 text-xl font-bold text-white mt-12">
-              <li><a href="#" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Home</a></li>
-              <li><a href="#" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">About</a></li>
+              <li><Link href="/" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Home</Link></li>
+              <li><a href="/about-us" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">About</a></li>
               <li><a href="#" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Services</a></li>
               <li><a href="#" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Portfolio</a></li>
               <li><a href="#" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Contact Us</a></li>
