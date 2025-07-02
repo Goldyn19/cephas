@@ -1,0 +1,405 @@
+/* SCOPED CAROUSEL CSS - all selectors prefixed with .my-carousel */
+
+/* Remove or comment out global selectors */
+/* body{...} html{...} *,:after,:before{...} etc. */
+
+.my-carousel article, .my-carousel aside, .my-carousel figcaption, .my-carousel figure, .my-carousel footer, .my-carousel header, .my-carousel main, .my-carousel nav, .my-carousel section {display:block}
+.my-carousel figure{margin:1em 2em}
+.my-carousel hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}
+.my-carousel code, .my-carousel kbd, .my-carousel pre, .my-carousel samp{font-size:1em}
+.my-carousel a{background-color:transparent;-webkit-text-decoration-skip:objects;color:#fff;text-decoration:none}
+.my-carousel a:hover{color:#ed145b}
+.my-carousel abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}
+.my-carousel b, .my-carousel strong{font-weight:inherit;font-weight:bolder}
+.my-carousel dfn{font-style:italic}
+.my-carousel small{font-size:80%}
+.my-carousel sub, .my-carousel sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+.my-carousel sub{bottom:-.25em}
+.my-carousel sup{top:-.5em}
+.my-carousel audio, .my-carousel video{display:inline-block}
+.my-carousel audio:not([controls]){display:none;height:0}
+.my-carousel img{border-style:none}
+.my-carousel svg{fill:currentColor;vertical-align:middle}
+.my-carousel svg:not(:root){overflow:hidden}
+.my-carousel button, .my-carousel input, .my-carousel optgroup, .my-carousel select, .my-carousel textarea{margin:0}
+.my-carousel button, .my-carousel input{overflow:visible}
+.my-carousel button, .my-carousel select{text-transform:none}
+.my-carousel [type=reset], .my-carousel [type=submit], .my-carousel button, .my-carousel html [type=button]{-webkit-appearance:button}
+.my-carousel [type=button]::-moz-focus-inner, .my-carousel [type=reset]::-moz-focus-inner, .my-carousel [type=submit]::-moz-focus-inner, .my-carousel button::-moz-focus-inner{border-style:none;padding:0}
+.my-carousel [type=button]:-moz-focusring, .my-carousel [type=reset]:-moz-focusring, .my-carousel [type=submit]:-moz-focusring, .my-carousel button:-moz-focusring{outline:1px dotted ButtonText}
+.my-carousel legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}
+.my-carousel progress{display:inline-block;vertical-align:baseline}
+.my-carousel textarea{overflow:auto}
+.my-carousel [type=checkbox], .my-carousel [type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}
+.my-carousel [type=number]::-webkit-inner-spin-button, .my-carousel [type=number]::-webkit-outer-spin-button{height:auto}
+.my-carousel [type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+.my-carousel [type=search]::-webkit-search-cancel-button, .my-carousel [type=search]::-webkit-search-decoration{-webkit-appearance:none}
+.my-carousel ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+.my-carousel details, .my-carousel menu{display:block}
+.my-carousel summary{display:list-item}
+.my-carousel canvas{display:inline-block}
+.my-carousel [hidden], .my-carousel template{display:none}
+.my-carousel code, .my-carousel kbd, .my-carousel pre, .my-carousel samp{font-family:Fira Code,Lucida Console,Monaco,monospace}
+.my-carousel mark{background-color:#ffde66;color:#818999}
+.my-carousel .heading--h1, .my-carousel .heading--h2, .my-carousel .heading--h3, .my-carousel .heading--h4, .my-carousel .heading--h5, .my-carousel .heading--h6, .my-carousel h1, .my-carousel h2, .my-carousel h3, .my-carousel h4, .my-carousel h5, .my-carousel h6{color:#fff;line-height:1.25;font-family:Lato,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:400}
+.my-carousel .heading--h1, .my-carousel h1{font-size:1.7777777778em}
+.my-carousel .heading--h2, .my-carousel h2{font-size:1.5em}
+.my-carousel .heading--h3, .my-carousel h3{font-size:1em}
+.my-carousel .heading--h4, .my-carousel h4{font-size:.8888888889em}
+.my-carousel .heading--h5, .my-carousel h5{font-size:.7777777778em}
+.my-carousel .heading--h6, .my-carousel h6{font-size:.6666666667em}
+@media (min-width:42.5em){.my-carousel .heading--h1, .my-carousel h1{font-size:2.5em}.my-carousel .heading--h2, .my-carousel h2{font-size:2em}.my-carousel .heading--h3, .my-carousel h3{font-size:1.5em}.my-carousel .heading--h4, .my-carousel h4{font-size:1.1666666667em}.my-carousel .heading--h5, .my-carousel h5{font-size:1em}.my-carousel .heading--h6, .my-carousel h6{font-size:.7777777778em}}
+.my-carousel .container{display:block;width:100%;max-width:100%}
+.my-carousel .container--small{max-width:30em}
+.my-carousel .container--medium{max-width:42.5em}
+.my-carousel .container--large{max-width:48em}
+.my-carousel .container--xlarge{max-width:64em}
+.my-carousel .container--xxlarge{max-width:77.5em}
+.my-carousel .container--center{margin-left:auto;margin-right:auto}
+.my-carousel .main__body table,.my-carousel .table{width:100%;border-collapse:collapse;border-spacing:0;text-align:left;border-top:1px solid #32333f}
+.my-carousel .main__body table tfoot,.my-carousel .main__body table thead,.my-carousel .table__footer,.my-carousel .table__head{background-color:#32333f}
+.my-carousel .main__body table td,.my-carousel .main__body table th,.my-carousel .table__cell{vertical-align:top;padding:.375em .5625em;border:1px solid #32333f;border-width:0 0 1px}
+.my-carousel .main__body table .table--condense td,.my-carousel .main__body table .table--condense th,.my-carousel .table--condense .main__body table td,.my-carousel .table--condense .main__body table th,.my-carousel .table--condense .table__cell{padding:.375em .5625em}
+.my-carousel .table--border{border:1px solid #32333f}
+.my-carousel .main__body table .table--border td,.my-carousel .main__body table .table--border th,.my-carousel .table--border .main__body table td,.my-carousel .table--border .main__body table th,.my-carousel .table--border .table__cell{border-width:1px}
+.my-carousel .table--hoverable .table__row:hover{background-color:#32333f}
+.my-carousel .table--scoreboard{border-width:0}
+.my-carousel .main__body table .table--scoreboard td,.my-carousel .main__body table .table--scoreboard th,.my-carousel .table--scoreboard .main__body table td,.my-carousel .table--scoreboard .main__body table th,.my-carousel .table--scoreboard .table__cell{border-width:1px}
+.my-carousel .main__body table .table--scoreboard td:first-child,.my-carousel .main__body table .table--scoreboard th:first-child,.my-carousel .table--scoreboard .main__body table td:first-child,.my-carousel .table--scoreboard .main__body table th:first-child,.my-carousel .table--scoreboard .table__cell:first-child{border-left-width:0}
+.my-carousel .main__body table .table--scoreboard td:last-child,.my-carousel .main__body table .table--scoreboard th:last-child,.my-carousel .table--scoreboard .main__body table td:last-child,.my-carousel .table--scoreboard .main__body table th:last-child,.my-carousel .table--scoreboard .table__cell:last-child{border-right-width:0}
+.my-carousel .main__body table .table--scoreboard>:first-child td,.my-carousel .main__body table .table--scoreboard>:first-child th,.my-carousel .table--scoreboard>:first-child .main__body table td,.my-carousel .table--scoreboard>:first-child .main__body table th,.my-carousel .table--scoreboard>:first-child .table__cell{border-top:0}
+.my-carousel .main__body table .table--scoreboard>:last-child td,.my-carousel .main__body table .table--scoreboard>:last-child th,.my-carousel .table--scoreboard>:last-child .main__body table td,.my-carousel .table--scoreboard>:last-child .main__body table th,.my-carousel .table--scoreboard>:last-child .table__cell{border-bottom:0}
+.my-carousel .table--stripe .table__row:nth-child(2n){background-color:#343542}
+.my-carousel .grid{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-left:-.5625em;margin-right:-.5625em}
+@media (min-width:48em){.my-carousel .grid{margin-left:-.75em;margin-right:-.75em}}
+.my-carousel .grid__column{-webkit-box-flex:1;-ms-flex:1;flex:1;max-width:100%;padding-left:.5625em;padding-right:.5625em}
+@media (min-width:48em){.my-carousel .grid__column{padding-left:.75em;padding-right:.75em}}
+.my-carousel .grid__column--1{-ms-flex-preferred-size:8.3333333333%;flex-basis:8.3333333333%;max-width:8.3333333333%}
+.my-carousel .grid__column--2{-ms-flex-preferred-size:16.6666666667%;flex-basis:16.6666666667%;max-width:16.6666666667%}
+.my-carousel .grid__column--3{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}
+.my-carousel .grid__column--4{-ms-flex-preferred-size:33.3333333333%;flex-basis:33.3333333333%;max-width:33.3333333333%}
+.my-carousel .grid__column--5{-ms-flex-preferred-size:41.6666666667%;flex-basis:41.6666666667%;max-width:41.6666666667%}
+.my-carousel .grid__column--6{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}
+.my-carousel .grid__column--7{-ms-flex-preferred-size:58.3333333333%;flex-basis:58.3333333333%;max-width:58.3333333333%}
+.my-carousel .grid__column--8{-ms-flex-preferred-size:66.6666666667%;flex-basis:66.6666666667%;max-width:66.6666666667%}
+.my-carousel .grid__column--9{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}
+.my-carousel .grid__column--10{-ms-flex-preferred-size:83.3333333333%;flex-basis:83.3333333333%;max-width:83.3333333333%}
+.my-carousel .grid__column--11{-ms-flex-preferred-size:91.6666666667%;flex-basis:91.6666666667%;max-width:91.6666666667%}
+.my-carousel .grid__column--12{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}
+@media (min-width:30em){.my-carousel .grid__column--1\@small{-ms-flex-preferred-size:8.3333333333%;flex-basis:8.3333333333%;max-width:8.3333333333%}.my-carousel .grid__column--2\@small{-ms-flex-preferred-size:16.6666666667%;flex-basis:16.6666666667%;max-width:16.6666666667%}.my-carousel .grid__column--3\@small{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.my-carousel .grid__column--4\@small{-ms-flex-preferred-size:33.3333333333%;flex-basis:33.3333333333%;max-width:33.3333333333%}.my-carousel .grid__column--5\@small{-ms-flex-preferred-size:41.6666666667%;flex-basis:41.6666666667%;max-width:41.6666666667%}.my-carousel .grid__column--6\@small{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.my-carousel .grid__column--7\@small{-ms-flex-preferred-size:58.3333333333%;flex-basis:58.3333333333%;max-width:58.3333333333%}.my-carousel .grid__column--8\@small{-ms-flex-preferred-size:66.6666666667%;flex-basis:66.6666666667%;max-width:66.6666666667%}.my-carousel .grid__column--9\@small{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.my-carousel .grid__column--10\@small{-ms-flex-preferred-size:83.3333333333%;flex-basis:83.3333333333%;max-width:83.3333333333%}.my-carousel .grid__column--11\@small{-ms-flex-preferred-size:91.6666666667%;flex-basis:91.6666666667%;max-width:91.6666666667%}.my-carousel .grid__column--12\@small{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}}
+@media (min-width:42.5em){.my-carousel .grid__column--1\@medium{-ms-flex-preferred-size:8.3333333333%;flex-basis:8.3333333333%;max-width:8.3333333333%}.my-carousel .grid__column--2\@medium{-ms-flex-preferred-size:16.6666666667%;flex-basis:16.6666666667%;max-width:16.6666666667%}.my-carousel .grid__column--3\@medium{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.my-carousel .grid__column--4\@medium{-ms-flex-preferred-size:33.3333333333%;flex-basis:33.3333333333%;max-width:33.3333333333%}.my-carousel .grid__column--5\@medium{-ms-flex-preferred-size:41.6666666667%;flex-basis:41.6666666667%;max-width:41.6666666667%}.my-carousel .grid__column--6\@medium{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.my-carousel .grid__column--7\@medium{-ms-flex-preferred-size:58.3333333333%;flex-basis:58.3333333333%;max-width:58.3333333333%}.my-carousel .grid__column--8\@medium{-ms-flex-preferred-size:66.6666666667%;flex-basis:66.6666666667%;max-width:66.6666666667%}.my-carousel .grid__column--9\@medium{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.my-carousel .grid__column--10\@medium{-ms-flex-preferred-size:83.3333333333%;flex-basis:83.3333333333%;max-width:83.3333333333%}.my-carousel .grid__column--11\@medium{-ms-flex-preferred-size:91.6666666667%;flex-basis:91.6666666667%;max-width:91.6666666667%}.my-carousel .grid__column--12\@medium{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}}
+@media (min-width:48em){.my-carousel .grid__column--1\@large{-ms-flex-preferred-size:8.3333333333%;flex-basis:8.3333333333%;max-width:8.3333333333%}.my-carousel .grid__column--2\@large{-ms-flex-preferred-size:16.6666666667%;flex-basis:16.6666666667%;max-width:16.6666666667%}.my-carousel .grid__column--3\@large{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.my-carousel .grid__column--4\@large{-ms-flex-preferred-size:33.3333333333%;flex-basis:33.3333333333%;max-width:33.3333333333%}.my-carousel .grid__column--5\@large{-ms-flex-preferred-size:41.6666666667%;flex-basis:41.6666666667%;max-width:41.6666666667%}.my-carousel .grid__column--6\@large{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.my-carousel .grid__column--7\@large{-ms-flex-preferred-size:58.3333333333%;flex-basis:58.3333333333%;max-width:58.3333333333%}.my-carousel .grid__column--8\@large{-ms-flex-preferred-size:66.6666666667%;flex-basis:66.6666666667%;max-width:66.6666666667%}.my-carousel .grid__column--9\@large{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.my-carousel .grid__column--10\@large{-ms-flex-preferred-size:83.3333333333%;flex-basis:83.3333333333%;max-width:83.3333333333%}.my-carousel .grid__column--11\@large{-ms-flex-preferred-size:91.6666666667%;flex-basis:91.6666666667%;max-width:91.6666666667%}.my-carousel .grid__column--12\@large{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}}
+@media (min-width:64em){.my-carousel .grid__column--1\@xlarge{-ms-flex-preferred-size:8.3333333333%;flex-basis:8.3333333333%;max-width:8.3333333333%}.my-carousel .grid__column--2\@xlarge{-ms-flex-preferred-size:16.6666666667%;flex-basis:16.6666666667%;max-width:16.6666666667%}.my-carousel .grid__column--3\@xlarge{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.my-carousel .grid__column--4\@xlarge{-ms-flex-preferred-size:33.3333333333%;flex-basis:33.3333333333%;max-width:33.3333333333%}.my-carousel .grid__column--5\@xlarge{-ms-flex-preferred-size:41.6666666667%;flex-basis:41.6666666667%;max-width:41.6666666667%}.my-carousel .grid__column--6\@xlarge{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.my-carousel .grid__column--7\@xlarge{-ms-flex-preferred-size:58.3333333333%;flex-basis:58.3333333333%;max-width:58.3333333333%}.my-carousel .grid__column--8\@xlarge{-ms-flex-preferred-size:66.6666666667%;flex-basis:66.6666666667%;max-width:66.6666666667%}.my-carousel .grid__column--9\@xlarge{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.my-carousel .grid__column--10\@xlarge{-ms-flex-preferred-size:83.3333333333%;flex-basis:83.3333333333%;max-width:83.3333333333%}.my-carousel .grid__column--11\@xlarge{-ms-flex-preferred-size:91.6666666667%;flex-basis:91.6666666667%;max-width:91.6666666667%}.my-carousel .grid__column--12\@xlarge{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}}
+@media (min-width:77.5em){.my-carousel .grid__column--1\@xxlarge{-ms-flex-preferred-size:8.3333333333%;flex-basis:8.3333333333%;max-width:8.3333333333%}.my-carousel .grid__column--2\@xxlarge{-ms-flex-preferred-size:16.6666666667%;flex-basis:16.6666666667%;max-width:16.6666666667%}.my-carousel .grid__column--3\@xxlarge{-ms-flex-preferred-size:25%;flex-basis:25%;max-width:25%}.my-carousel .grid__column--4\@xxlarge{-ms-flex-preferred-size:33.3333333333%;flex-basis:33.3333333333%;max-width:33.3333333333%}.my-carousel .grid__column--5\@xxlarge{-ms-flex-preferred-size:41.6666666667%;flex-basis:41.6666666667%;max-width:41.6666666667%}.my-carousel .grid__column--6\@xxlarge{-ms-flex-preferred-size:50%;flex-basis:50%;max-width:50%}.my-carousel .grid__column--7\@xxlarge{-ms-flex-preferred-size:58.3333333333%;flex-basis:58.3333333333%;max-width:58.3333333333%}.my-carousel .grid__column--8\@xxlarge{-ms-flex-preferred-size:66.6666666667%;flex-basis:66.6666666667%;max-width:66.6666666667%}.my-carousel .grid__column--9\@xxlarge{-ms-flex-preferred-size:75%;flex-basis:75%;max-width:75%}.my-carousel .grid__column--10\@xxlarge{-ms-flex-preferred-size:83.3333333333%;flex-basis:83.3333333333%;max-width:83.3333333333%}.my-carousel .grid__column--11\@xxlarge{-ms-flex-preferred-size:91.6666666667%;flex-basis:91.6666666667%;max-width:91.6666666667%}.my-carousel .grid__column--12\@xxlarge{-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}}
+.my-carousel .grid__column--shrink{-webkit-box-flex:0;-ms-flex:0 1 auto;flex:0 1 auto}
+.my-carousel .grid__column--middle{-ms-flex-item-align:center;align-self:center}
+.my-carousel .grid__column--bottom{-ms-flex-item-align:end;align-self:flex-end}
+.my-carousel .grid__column--baseline{-ms-flex-item-align:baseline;align-self:baseline}
+.my-carousel .grid__column--stretch{-ms-flex-item-align:stretch;align-self:stretch}
+.my-carousel .grid--right{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+.my-carousel .grid--center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.my-carousel .grid--justify{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.my-carousel .grid--space{-ms-flex-pack:distribute;justify-content:space-around}
+.my-carousel .grid--middle{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.my-carousel .grid--bottom{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
+.my-carousel .grid--stretch{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}
+.my-carousel .grid--stack{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+@media (max-width:42.4375em){.my-carousel .grid--stackable{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.my-carousel .grid--stackable>.my-carousel .grid__column{-ms-flex-preferred-size:auto;flex-basis:auto;max-width:100%}}
+.my-carousel .grid--reverse{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}
+.my-carousel .grid--reverse.my-carousel .grid--stack{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}
+@media (max-width:42.4375em){.my-carousel .grid--reverse.my-carousel .grid--stackable{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}}
+.my-carousel .grid--gapless{margin-left:0;margin-right:0}
+.my-carousel .grid--gapless>.my-carousel .grid__column{padding-left:0;padding-right:0}
+.my-carousel .grid--waffle{margin:-.5625em}
+@media (min-width:48em){.my-carousel .grid--waffle{margin:-.75em}}
+.my-carousel .grid--waffle .my-carousel .grid__column{padding:.5625em}
+@media (min-width:48em){.my-carousel .grid--waffle .my-carousel .grid__column{padding:.75em}}
+.my-carousel .list{display:block;padding-left:1em}
+.my-carousel .list__item{display:list-item}
+.my-carousel .list--unstyle{list-style-type:none;margin-top:0;margin-bottom:0;padding-left:0}
+.my-carousel .list--inline .list__item{display:inline-block}
+.my-carousel .heading,.my-carousel .paragraph{margin:0}
+.my-carousel .button{font-size:1em;padding:.375em 1.125em;color:#000;background-color:#fff;position:relative;cursor:pointer;display:inline-block;vertical-align:middle;line-height:inherit;text-decoration:none;outline:0;font-weight:400;text-align:center;border-radius:1.6875rem;border:2px solid transparent}
+.my-carousel .button:active,.my-carousel .button:focus,.my-carousel .button:hover{color:#000;background-color:#c1cde5}
+.my-carousel .button__cover{position:absolute;top:0;left:0;width:100%;height:100%;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;opacity:0;color:#000}
+.my-carousel .button__icon{display:inline-block}
+.my-carousel img.button__icon, .my-carousel svg.button__icon{vertical-align:sub}
+.my-carousel .button--xsmall{font-size:.6111111111em}
+.my-carousel .button--small{font-size:.7777777778em}
+.my-carousel .button--large{font-size:1.1111111111em}
+.my-carousel .button--primary{color:#fff;background-color:#ed145b}
+.my-carousel .button--primary:active,.my-carousel .button--primary:focus,.my-carousel .button--primary:hover{color:#fff;background-color:#bf0f48}
+.my-carousel .button--primary .button__cover,.my-carousel .button--primary:active .button__cover,.my-carousel .button--primary:focus .button__cover,.my-carousel .button--primary:hover .button__cover{color:#fff}
+.my-carousel .button--secondary{color:#fff;background-color:#7b31f4}
+.my-carousel .button--secondary:active,.my-carousel .button--secondary:focus,.my-carousel .button--secondary:hover{color:#fff;background-color:#5f0ce6}
+.my-carousel .button--secondary .button__cover,.my-carousel .button--secondary:active .button__cover,.my-carousel .button--secondary:focus .button__cover,.my-carousel .button--secondary:hover .button__cover{color:#fff}
+.my-carousel .button--hollow{background-color:transparent;color:#fff;border:2px solid #969fb3}
+.my-carousel .button--hollow:active,.my-carousel .button--hollow:focus,.my-carousel .button--hollow:hover{background-color:transparent;color:#fff;border-color:#fff}
+.my-carousel .button--hollow.my-carousel .button--primary{color:#ed145b;border-color:#ed145b}
+.my-carousel .button--hollow.my-carousel .button--primary:active,.my-carousel .button--hollow.my-carousel .button--primary:focus,.my-carousel .button--hollow.my-carousel .button--primary:hover{color:#fff;border-color:#bf0f48}
+.my-carousel .button--hollow.my-carousel .button--primary:active .button__cover,.my-carousel .button--hollow.my-carousel .button--primary:focus .button__cover,.my-carousel .button--hollow.my-carousel .button--primary:hover .button__cover{color:#fff}
+.my-carousel .button--hollow.my-carousel .button--primary .button__cover{color:#ed145b}
+.my-carousel .button--hollow.my-carousel .button--secondary{color:#7b31f4;border-color:#7b31f4}
+.my-carousel .button--hollow.my-carousel .button--secondary:active,.my-carousel .button--hollow.my-carousel .button--secondary:focus,.my-carousel .button--hollow.my-carousel .button--secondary:hover{color:#fff;border-color:#5f0ce6}
+.my-carousel .button--hollow.my-carousel .button--secondary:active .button__cover,.my-carousel .button--hollow.my-carousel .button--secondary:focus .button__cover,.my-carousel .button--hollow.my-carousel .button--secondary:hover .button__cover{color:#fff}
+.my-carousel .button--hollow.my-carousel .button--secondary .button__cover{color:#7b31f4}
+.my-carousel .button--wide{padding-left:2.2222222222em;padding-right:2.2222222222em}
+.my-carousel .button--expand{display:block;width:100%}
+.my-carousel .button--cover{cursor:auto;color:transparent!important}
+.my-carousel .button--cover .button__cover{opacity:1}
+.my-carousel .button--curtain:active,.my-carousel .button--curtain:focus,.my-carousel .button--curtain:hover{color:transparent!important}
+.my-carousel .button--curtain:active .button__cover,.my-carousel .button--curtain:focus .button__cover,.my-carousel .button--curtain:hover .button__cover{opacity:1}
+.my-carousel .button--disable,.my-carousel .button:disabled{cursor:default;opacity:.5;pointer-events:none;background-image:none}
+.my-carousel .space>*+*{margin-top:0}
+.my-carousel .space--xsmall>*+*{margin-top:.1875em}
+.my-carousel .space--small>*+*{margin-top:.375em}
+.my-carousel .space--medium>*+*{margin-top:.5625em}
+.my-carousel .space--large>*+*{margin-top:1.125em}
+.my-carousel .space--xlarge>*+*{margin-top:1.5em}
+.my-carousel .space--xxlarge>*+*{margin-top:2.25em}
+.my-carousel .space--big>*+*{margin-top:5.3125em}
+.my-carousel .space--xsmall\@xsmall>*+*{margin-top:.1875em}
+.my-carousel .space--small\@xsmall>*+*{margin-top:.375em}
+.my-carousel .space--medium\@xsmall>*+*{margin-top:.5625em}
+.my-carousel .space--large\@xsmall>*+*{margin-top:1.125em}
+.my-carousel .space--xlarge\@xsmall>*+*{margin-top:1.5em}
+.my-carousel .space--xxlarge\@xsmall>*+*{margin-top:2.25em}
+.my-carousel .space--big\@xsmall>*+*{margin-top:5.3125em}
+@media (min-width:30em){.my-carousel .space--xsmall\@small>*+*{margin-top:.1875em}}
+@media (min-width:30em){.my-carousel .space--small\@small>*+*{margin-top:.375em}}
+@media (min-width:30em){.my-carousel .space--medium\@small>*+*{margin-top:.5625em}}
+@media (min-width:30em){.my-carousel .space--large\@small>*+*{margin-top:1.125em}}
+@media (min-width:30em){.my-carousel .space--xlarge\@small>*+*{margin-top:1.5em}}
+@media (min-width:30em){.my-carousel .space--xxlarge\@small>*+*{margin-top:2.25em}}
+@media (min-width:30em){.my-carousel .space--big\@small>*+*{margin-top:5.3125em}}
+@media (min-width:42.5em){.my-carousel .space--xsmall\@medium>*+*{margin-top:.1875em}}
+@media (min-width:42.5em){.my-carousel .space--small\@medium>*+*{margin-top:.375em}}
+@media (min-width:42.5em){.my-carousel .space--medium\@medium>*+*{margin-top:.5625em}}
+@media (min-width:42.5em){.my-carousel .space--large\@medium>*+*{margin-top:1.125em}}
+@media (min-width:42.5em){.my-carousel .space--xlarge\@medium>*+*{margin-top:1.5em}}
+@media (min-width:42.5em){.my-carousel .space--xxlarge\@medium>*+*{margin-top:2.25em}}
+@media (min-width:42.5em){.my-carousel .space--big\@medium>*+*{margin-top:5.3125em}}
+@media (min-width:48em){.my-carousel .space--xsmall\@large>*+*{margin-top:.1875em}}
+@media (min-width:48em){.my-carousel .space--small\@large>*+*{margin-top:.375em}}
+@media (min-width:48em){.my-carousel .space--medium\@large>*+*{margin-top:.5625em}}
+@media (min-width:48em){.my-carousel .space--large\@large>*+*{margin-top:1.125em}}
+@media (min-width:48em){.my-carousel .space--xlarge\@large>*+*{margin-top:1.5em}}
+@media (min-width:48em){.my-carousel .space--xxlarge\@large>*+*{margin-top:2.25em}}
+@media (min-width:48em){.my-carousel .space--big\@large>*+*{margin-top:5.3125em}}
+@media (min-width:64em){.my-carousel .space--xsmall\@xlarge>*+*{margin-top:.1875em}}
+@media (min-width:64em){.my-carousel .space--small\@xlarge>*+*{margin-top:.375em}}
+@media (min-width:64em){.my-carousel .space--medium\@xlarge>*+*{margin-top:.5625em}}
+@media (min-width:64em){.my-carousel .space--large\@xlarge>*+*{margin-top:1.125em}}
+@media (min-width:64em){.my-carousel .space--xlarge\@xlarge>*+*{margin-top:1.5em}}
+@media (min-width:64em){.my-carousel .space--xxlarge\@xlarge>*+*{margin-top:2.25em}}
+@media (min-width:64em){.my-carousel .space--big\@xlarge>*+*{margin-top:5.3125em}}
+@media (min-width:77.5em){.my-carousel .space--xsmall\@xxlarge>*+*{margin-top:.1875em}}
+@media (min-width:77.5em){.my-carousel .space--small\@xxlarge>*+*{margin-top:.375em}}
+@media (min-width:77.5em){.my-carousel .space--medium\@xxlarge>*+*{margin-top:.5625em}}
+@media (min-width:77.5em){.my-carousel .space--large\@xxlarge>*+*{margin-top:1.125em}}
+@media (min-width:77.5em){.my-carousel .space--xlarge\@xxlarge>*+*{margin-top:1.5em}}
+@media (min-width:77.5em){.my-carousel .space--xxlarge\@xxlarge>*+*{margin-top:2.25em}}
+@media (min-width:77.5em){.my-carousel .space--big\@xxlarge>*+*{margin-top:5.3125em}}
+.my-carousel .gutter>*+*{margin-left:0}
+.my-carousel .gutter--xsmall>*+*{margin-left:.1875em}
+.my-carousel .gutter--small>*+*{margin-left:.375em}
+.my-carousel .gutter--medium>*+*{margin-left:.5625em}
+.my-carousel .gutter--large>*+*{margin-left:1.125em}
+.my-carousel .gutter--xlarge>*+*{margin-left:1.5em}
+.my-carousel .gutter--xxlarge>*+*{margin-left:2.25em}
+.my-carousel .gutter--big>*+*{margin-left:5.3125em}
+.my-carousel .gutter--xsmall\@xsmall>*+*{margin-left:.1875em}
+.my-carousel .gutter--small\@xsmall>*+*{margin-left:.375em}
+.my-carousel .gutter--medium\@xsmall>*+*{margin-left:.5625em}
+.my-carousel .gutter--large\@xsmall>*+*{margin-left:1.125em}
+.my-carousel .gutter--xlarge\@xsmall>*+*{margin-left:1.5em}
+.my-carousel .gutter--xxlarge\@xsmall>*+*{margin-left:2.25em}
+.my-carousel .gutter--big\@xsmall>*+*{margin-left:5.3125em}
+@media (min-width:30em){.my-carousel .gutter--xsmall\@small>*+*{margin-left:.1875em}}
+@media (min-width:30em){.my-carousel .gutter--small\@small>*+*{margin-left:.375em}}
+@media (min-width:30em){.my-carousel .gutter--medium\@small>*+*{margin-left:.5625em}}
+@media (min-width:30em){.my-carousel .gutter--large\@small>*+*{margin-left:1.125em}}
+@media (min-width:30em){.my-carousel .gutter--xlarge\@small>*+*{margin-left:1.5em}}
+@media (min-width:30em){.my-carousel .gutter--xxlarge\@small>*+*{margin-left:2.25em}}
+@media (min-width:30em){.my-carousel .gutter--big\@small>*+*{margin-left:5.3125em}}
+@media (min-width:42.5em){.my-carousel .gutter--xsmall\@medium>*+*{margin-left:.1875em}}
+@media (min-width:42.5em){.my-carousel .gutter--small\@medium>*+*{margin-left:.375em}}
+@media (min-width:42.5em){.my-carousel .gutter--medium\@medium>*+*{margin-left:.5625em}}
+@media (min-width:42.5em){.my-carousel .gutter--large\@medium>*+*{margin-left:1.125em}}
+@media (min-width:42.5em){.my-carousel .gutter--xlarge\@medium>*+*{margin-left:1.5em}}
+@media (min-width:42.5em){.my-carousel .gutter--xxlarge\@medium>*+*{margin-left:2.25em}}
+@media (min-width:42.5em){.my-carousel .gutter--big\@medium>*+*{margin-left:5.3125em}}
+@media (min-width:48em){.my-carousel .gutter--xsmall\@large>*+*{margin-left:.1875em}}
+@media (min-width:48em){.my-carousel .gutter--small\@large>*+*{margin-left:.375em}}
+@media (min-width:48em){.my-carousel .gutter--medium\@large>*+*{margin-left:.5625em}}
+@media (min-width:48em){.my-carousel .gutter--large\@large>*+*{margin-left:1.125em}}
+@media (min-width:48em){.my-carousel .gutter--xlarge\@large>*+*{margin-left:1.5em}}
+@media (min-width:48em){.my-carousel .gutter--xxlarge\@large>*+*{margin-left:2.25em}}
+@media (min-width:48em){.my-carousel .gutter--big\@large>*+*{margin-left:5.3125em}}
+@media (min-width:64em){.my-carousel .gutter--xsmall\@xlarge>*+*{margin-left:.1875em}}
+@media (min-width:64em){.my-carousel .gutter--small\@xlarge>*+*{margin-left:.375em}}
+@media (min-width:64em){.my-carousel .gutter--medium\@xlarge>*+*{margin-left:.5625em}}
+@media (min-width:64em){.my-carousel .gutter--large\@xlarge>*+*{margin-left:1.125em}}
+@media (min-width:64em){.my-carousel .gutter--xlarge\@xlarge>*+*{margin-left:1.5em}}
+@media (min-width:64em){.my-carousel .gutter--xxlarge\@xlarge>*+*{margin-left:2.25em}}
+@media (min-width:64em){.my-carousel .gutter--big\@xlarge>*+*{margin-left:5.3125em}}
+@media (min-width:77.5em){.my-carousel .gutter--xsmall\@xxlarge>*+*{margin-left:.1875em}}
+@media (min-width:77.5em){.my-carousel .gutter--small\@xxlarge>*+*{margin-left:.375em}}
+@media (min-width:77.5em){.my-carousel .gutter--medium\@xxlarge>*+*{margin-left:.5625em}}
+@media (min-width:77.5em){.my-carousel .gutter--large\@xxlarge>*+*{margin-left:1.125em}}
+@media (min-width:77.5em){.my-carousel .gutter--xlarge\@xxlarge>*+*{margin-left:1.5em}}
+@media (min-width:77.5em){.my-carousel .gutter--xxlarge\@xxlarge>*+*{margin-left:2.25em}}
+@media (min-width:77.5em){.my-carousel .gutter--big\@xxlarge>*+*{margin-left:5.3125em}}
+.my-carousel .glide{position:relative;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}
+.my-carousel .glide *{-webkit-box-sizing:inherit;box-sizing:inherit}
+.my-carousel .glide__slides,.my-carousel .glide__track{overflow:hidden}
+.my-carousel .glide__slides{position:relative;width:100%;list-style:none;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-ms-touch-action:pan-Y;touch-action:pan-Y;padding:0;white-space:nowrap;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;will-change:transform}
+.my-carousel .glide__slide,.my-carousel .glide__slides--dragging{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.my-carousel .glide__slide{width:100%;height:100%;-ms-flex-negative:0;flex-shrink:0;white-space:normal;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+.my-carousel .glide__slide a{-webkit-user-select:none;user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none}
+.my-carousel .glide__arrows,.my-carousel .glide__bullets{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.my-carousel .glide--rtl{direction:rtl}
+.my-carousel html{overflow-x:hidden}
+.my-carousel a{-webkit-transition:color .2s ease-in-out;transition:color .2s ease-in-out}
+.my-carousel .heading--h1,.my-carousel .heading--h2,.my-carousel .heading--h3,.my-carousel .heading--h4,.my-carousel .heading--h5,.my-carousel .heading--h6,.my-carousel h1,.my-carousel h2,.my-carousel h3,.my-carousel h4,.my-carousel h5,.my-carousel h6{margin-top:1em;margin-bottom:.5em}
+@media (min-width:42.5em){.my-carousel .heading--h1,.my-carousel .heading--h2,.my-carousel .heading--h3,.my-carousel .heading--h4,.my-carousel .heading--h5,.my-carousel .heading--h6,.my-carousel h1,.my-carousel h2,.my-carousel h3,.my-carousel h4,.my-carousel h5,.my-carousel h6{margin-top:1.5em}}
+.my-carousel p{margin-top:1.25em;margin-bottom:1em}
+.my-carousel pre, .my-carousel table{margin-top:1.5em;margin-bottom:1.5em}
+.my-carousel ul{padding-left:1em}
+.my-carousel blockquote{margin:2em 0}
+.my-carousel .main{margin-left:-2rem;margin-right:-2rem}
+.my-carousel .main>*{padding-left:2rem;padding-right:2rem}
+.my-carousel .main>*+*{border-left:1px solid #32333f}
+.my-carousel .main__side{display:none}
+@media (min-width:42.5em){.my-carousel .main__side{display:initial}}
+.my-carousel .main__body,.my-carousel .main__sidebar{padding-top:1.5rem;padding-bottom:1.5rem}
+@media (min-width:42.5em){.my-carousel .main__body,.my-carousel .main__sidebar{padding-top:3rem;padding-bottom:3rem}}
+@media (min-width:77.5em){.my-carousel .main__content{padding-right:20%}}
+.my-carousel .main__body a:not([class]){color:#c1cde5;text-decoration:underline}
+.my-carousel .main__body a:not([class]):hover{color:#7b31f4}
+.my-carousel .main__body .heading--h1 code,.my-carousel .main__body .heading--h2 code,.my-carousel .main__body .heading--h3 code,.my-carousel .main__body .heading--h4 code,.my-carousel .main__body .heading--h5 code,.my-carousel .main__body .heading--h6 code,.my-carousel .main__body h1 code,.my-carousel .main__body h2 code,.my-carousel .main__body h3 code,.my-carousel .main__body h4 code,.my-carousel .main__body h5 code,.my-carousel .main__body h6 code{font-size:.8em;font-weight:400;vertical-align:middle}
+.my-carousel .main__body .heading--h1 small,.my-carousel .main__body .heading--h2 small,.my-carousel .main__body .heading--h3 small,.my-carousel .main__body .heading--h4 small,.my-carousel .main__body .heading--h5 small,.my-carousel .main__body .heading--h6 small,.my-carousel .main__body h1 small,.my-carousel .main__body h2 small,.my-carousel .main__body h3 small,.my-carousel .main__body h4 small,.my-carousel .main__body h5 small,.my-carousel .main__body h6 small{margin-left:.5em;font-size:.5em}
+@media (min-width:77.5em){.my-carousel .main__body pre{width:calc(120% + 1.5rem);margin-left:-1.5rem}}
+.my-carousel .main__body strong{color:#fff}
+@media (min-width:77.5em){.my-carousel .main__body blockquote{width:calc(120% + 1.5rem);margin-left:-1.5rem}}
+.my-carousel .wrapper{padding-left:1rem;padding-right:1rem}
+.my-carousel .hr,.my-carousel .main__body hr{border-color:#32333f;margin-top:3em;margin-bottom:3em;border-width:1px}
+.my-carousel .main__body pre,.my-carousel .pre{color:#c1cde5;border-radius:.3333333333em;background-color:#000;padding:1em 1.2em;font-size:.9em}
+.my-carousel .main__body pre code,.my-carousel .pre code{background-color:transparent;color:#fff;padding:0}
+.my-carousel .nav__item--active .nav__link{display:inline-block;position:relative;color:#fff}
+.my-carousel .nav__item--active .nav__link:after{content:"";display:block;width:100%;height:3px;background-color:#ed145b}
+.my-carousel .nav__link{color:#969fb3}
+.my-carousel .nav__link:hover{color:#fff}
+.my-carousel .logo{font-size:2em}
+.my-carousel .lead{font-family:Nunito Sans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;color:#818999;font-weight:300;line-height:1.8em}
+.my-carousel .code,.my-carousel .main__body code{background-color:#1b1c23;border-radius:.25em;padding:.25em;color:#67cdcc}
+.my-carousel .hero{text-align:center}
+.my-carousel .hero__wrapper{position:relative}
+.my-carousel .hero__heading{position:absolute;top:50%;left:50%;width:100%;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;padding-left:3rem;padding-right:3rem;-webkit-transform:translate(-50%,-66.66%);transform:translate(-50%,-66.66%)}
+.my-carousel .hero__logo{width:100%;max-width:180px;fill:#fff}
+@media (min-width:42.5em){.my-carousel .hero__logo{max-width:360px}}
+.my-carousel .menu{text-transform:uppercase;font-size:.7777777778em;letter-spacing:.1666666667em;font-weight:300}
+.my-carousel .image--middle{vertical-align:middle}
+.my-carousel .input{background-color:transparent;border:1px solid #32333f;padding:.5em;color:#fff;font-size:.8em;border-radius:0}
+.my-carousel .input--large{font-size:1.25em}
+.my-carousel .input--inline{display:inline-block;vertical-align:middle;margin:0 .25em}
+.my-carousel .input--pill{border-radius:1.5em}
+.my-carousel .input--expand{width:100%;display:block}
+.my-carousel .input--disabled,.my-carousel .input[disabled]{background-color:#1b1c23;color:#818999}
+.my-carousel .glide{cursor:-webkit-grab}
+.my-carousel .glide__slides{margin:0}
+.my-carousel .glide__arrow{cursor:pointer;padding:0;background-color:transparent;border:0;outline:0}
+.my-carousel .glide--dragging{cursor:-webkit-grabbing}
+.my-carousel .panel{padding:3.6111111111em 2em;background:-webkit-gradient(linear,left top,right top,from(#3e0c1c),to(#2d0f5e));background:linear-gradient(90deg,#3e0c1c 0,#2d0f5e)}
+.my-carousel .frame{position:relative;z-index:0;width:100%;height:13.3333333333rem;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-transition:-webkit-transform 1s ease-in-out;transition:-webkit-transform 1s ease-in-out;transition:transform 1s ease-in-out;transition:transform 1s ease-in-out,-webkit-transform 1s ease-in-out;-webkit-transform-origin:50% 50%;transform-origin:50% 50%;will-change:transform}
+@media (min-width:42.5em){.my-carousel .frame{height:22.2222222222rem}}
+.my-carousel .frame>*{position:absolute;width:100%;height:100%;border:2px solid hsla(0,0%,100%,.5);border-radius:1px;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.my-carousel .frame>:first-child{border-radius:2px;-webkit-box-shadow:0 .5rem 4rem 0 rgba(0,0,0,.5);box-shadow:0 .5rem 4rem 0 rgba(0,0,0,.5)}
+.my-carousel .frame>:nth-child(2){top:0;right:0;width:3rem;-webkit-transform:translate3d(-1px,0,-3rem) rotateY(90deg);transform:translate3d(-1px,0,-3rem) rotateY(90deg);-webkit-transform-origin:100% 50%;transform-origin:100% 50%;border-width:3px;border-right-width:9px}
+.my-carousel .frame>:nth-child(3){top:0;left:0;width:3rem;-webkit-transform:translate3d(1px,0,-3rem) rotateY(-90deg);transform:translate3d(1px,0,-3rem) rotateY(-90deg);-webkit-transform-origin:0 50%;transform-origin:0 50%;border-width:3px;border-left-width:9px}
+.my-carousel .frames{padding-top:2rem;padding-bottom:3rem}
+@media (min-width:42.5em){.my-carousel .frames{padding-top:4rem;padding-bottom:5rem}}
+.my-carousel .frames__list{overflow:visible}
+.my-carousel .frames__item{-webkit-transform:perspective(2000px);transform:perspective(2000px)}
+.my-carousel .select{-webkit-appearance:none;-moz-appearance:none;appearance:none;padding-right:2.5em!important;background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSI3Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTEuODI2LjE2NGMtLjE2NC0uMTY0LS40My0uMTY0LS41OTUgMEw2IDUuNDA0Ljc2LjE2NEMuNTk0IDAgLjMyNyAwIC4xNjMuMTY0IDAgLjMzIDAgLjU5NC4xNjMuNzZsNS41MyA1LjUyN2MuMDguMDgyLjE4NC4xMjMuMjk3LjEyMy4xMDIgMCAuMjE1LS4wNC4yOTctLjEyM0wxMS44MTUuNzZjLjE3NS0uMTY1LjE3NS0uNDMyLjAxLS41OTZ6Ii8+PC9zdmc+");background-position:center right 1em;background-repeat:no-repeat}
+.my-carousel .slider__frame{border-radius:.1666666667em;text-align:center;height:150px;line-height:150px;-webkit-box-shadow:inset 0 0 0 2px hsla(0,0%,100%,.5);box-shadow:inset 0 0 0 2px hsla(0,0%,100%,.5);color:#fff;background:transparent;font-size:1em;font-weight:900}
+.my-carousel .slider__frame[class*=active]{-webkit-box-shadow:none;box-shadow:none;background:linear-gradient(-45deg,#ed145b,#7b31f4)}
+.my-carousel .slider__arrow{position:absolute;top:50%;z-index:1;width:24px;height:24px;margin-top:-9px;border-radius:50%;background-color:#818999;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-box-shadow:0 .5rem 4rem 0 rgba(0,0,0,.5);box-shadow:0 .5rem 4rem 0 rgba(0,0,0,.5)}
+.my-carousel .slider__arrow:hover{background-color:#ed145b}
+.my-carousel .slider__arrow--next{right:1.5rem}
+.my-carousel .slider__arrow--prev{left:1.5rem}
+.my-carousel .slider__bullets{position:absolute;z-index:2;bottom:1.5rem;left:50%;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;list-style:none;-webkit-transform:translateX(-50%);transform:translateX(-50%)}
+.my-carousel .slider__bullet{background-color:hsla(0,0%,100%,.5);width:9px;height:9px;padding:0;border-radius:50%;border:2px solid transparent;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;cursor:pointer;line-height:0;-webkit-box-shadow:0 .25em .5em 0 rgba(0,0,0,.1);box-shadow:0 .25em .5em 0 rgba(0,0,0,.1);margin:0 .25em}
+.my-carousel .slider__bullet:focus{outline:none}
+.my-carousel .slider__bullet:focus,.my-carousel .slider__bullet:hover{border:2px solid #fff;background-color:hsla(0,0%,100%,.5)}
+.my-carousel .slider__bullet[class*=active]{background-color:#fff}
+.my-carousel .slider--big .slider__arrows{position:absolute;z-index:2;bottom:36px;width:100%}
+@media (min-width:42.5em){.my-carousel .slider--big .slider__arrows{position:static}}
+.my-carousel .slider--big .slider__arrow{width:46px;height:46px;margin-top:-30px}
+@media (max-width:42.4375em){.my-carousel .slider--big .slider__arrow{position:static}}
+.my-carousel .slider--big .slider__arrow--next{right:3rem}
+.my-carousel .slider--big .slider__arrow--prev{left:3rem}
+.my-carousel .navbar:before{content:"";display:block;width:100%;height:15px;background:-webkit-gradient(linear,left top,right top,from(#ed145b),to(#7b31f4));background:linear-gradient(90deg,#ed145b 0,#7b31f4)}
+.my-carousel .navbar__wrapper{padding-top:2rem}
+.my-carousel .navbar__menu{text-align:center}
+.my-carousel .navbar--variant .navbar__wrapper{padding-top:2rem;padding-bottom:2rem}
+.my-carousel .navbar--variant .navbar__menu{text-align:right}
+@media (min-width:42.5em){.my-carousel .navbar--variant .navbar__menu{text-align:center}}
+.my-carousel .button{-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+.my-carousel .button:hover{-webkit-box-shadow:0 .5rem 1.5rem 0 rgba(0,0,0,.2);box-shadow:0 .5rem 1.5rem 0 rgba(0,0,0,.2)}
+.my-carousel .button__icon{opacity:.5}
+.my-carousel .header{position:relative}
+.my-carousel .header:before{content:"";display:block;position:absolute;top:0;left:50%;z-index:-1;width:100vw;height:100vw;background-image:radial-gradient(circle at center,#32333f 0,rgba(50,51,63,0) 66.66%);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.my-carousel .footer{text-align:center;background-color:#32333f}
+.my-carousel .footer__wrapper{font-size:.8em;padding-top:3rem;padding-bottom:3rem}
+.my-carousel .hidden{display:initial}
+@media (max-width:42.4375em){.my-carousel .hidden\@medium{display:none!important}}
+.my-carousel .visible{display:none}
+@media (max-width:42.4375em){.my-carousel .visible\@medium{display:initial!important}}
+.my-carousel .example{-webkit-box-shadow:0 .5rem 1.5rem 0 rgba(5,7,11,.33);box-shadow:0 .5rem 1.5rem 0 rgba(5,7,11,.33)}
+@media (min-width:77.5em){.my-carousel .example{width:calc(120% + 1.5rem);margin-left:-1.5rem}}
+.my-carousel .example__frame{padding:1.5rem;border:2px solid hsla(0,0%,100%,.1);border-bottom:0;border-top-left-radius:.2777777778em;border-top-right-radius:.2777777778em}
+.my-carousel .example__toggle{display:block;width:100%;border:0;background-color:#32333f;margin:0;padding:.5rem;text-align:left;color:inherit;border-radius:0;outline:none;color:#969fb3;cursor:pointer;border-bottom-left-radius:.2777777778em!important;border-bottom-right-radius:.2777777778em!important;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+.my-carousel .example__toggle:hover{color:#fff;background-color:#32333f}
+.my-carousel .example__code{width:100%!important;display:none;border-top-left-radius:0!important;border-top-right-radius:0!important;margin:0!important}
+.my-carousel .example__arrow:before{display:block;content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTIuMDE1IDdjNC43NTEgMCA4LjA2MyAzLjAxMiA5LjUwNCA0LjYzNi0xLjQwMSAxLjgzNy00LjcxMyA1LjM2NC05LjUwNCA1LjM2NC00LjQyIDAtNy45My0zLjUzNi05LjQ3OC01LjQwNyAxLjQ5My0xLjY0NyA0LjgxNy00LjU5MyA5LjQ3OC00LjU5M3ptMC0yYy03LjU2OSAwLTEyLjAxNSA2LjU1MS0xMi4wMTUgNi41NTFzNC44MzUgNy40NDkgMTIuMDE1IDcuNDQ5YzcuNzMzIDAgMTEuOTg1LTcuNDQ5IDExLjk4NS03LjQ0OXMtNC4yOTEtNi41NTEtMTEuOTg1LTYuNTUxem0tLjAxNSAzYy0yLjIwOSAwLTQgMS43OTItNCA0IDAgMi4yMDkgMS43OTEgNCA0IDRzNC0xLjc5MSA0LTRjMC0yLjIwOC0xLjc5MS00LTQtNHoiLz48L3N2Zz4=")}
+.my-carousel .example--active .example__code{display:block}
+.my-carousel .example--active .example__arrow:before{content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTkuNjA0IDIuNTYybC0zLjM0NiAzLjEzN2MtMS4yNy0uNDI4LTIuNjg2LS42OTktNC4yNDMtLjY5OS03LjU2OSAwLTEyLjAxNSA2LjU1MS0xMi4wMTUgNi41NTFzMS45MjggMi45NTEgNS4xNDYgNS4xMzhsLTIuOTExIDIuOTA5IDEuNDE0IDEuNDE0IDE3LjM3LTE3LjAzNS0xLjQxNS0xLjQxNXptLTYuMDE2IDUuNzc5Yy0zLjI4OC0xLjQ1My02LjY4MSAxLjkwOC01LjI2NSA1LjIwNmwtMS43MjYgMS43MDdjLTEuODE0LTEuMTYtMy4yMjUtMi42NS00LjA2LTMuNjYgMS40OTMtMS42NDggNC44MTctNC41OTQgOS40NzgtNC41OTQuOTI3IDAgMS43OTYuMTE5IDIuNjEuMzE1bC0xLjAzNyAxLjAyNnptLTIuODgzIDcuNDMxbDUuMDktNC45OTNjMS4wMTcgMy4xMTEtMi4wMDMgNi4wNjctNS4wOSA0Ljk5M3ptMTMuMjk1LTQuMjIxcy00LjI1MiA3LjQ0OS0xMS45ODUgNy40NDljLTEuMzc5IDAtMi42NjItLjI5MS0zLjg1MS0uNzM3bDEuNjE0LTEuNTgzYy43MTUuMTkzIDEuNDU4LjMyIDIuMjM3LjMyIDQuNzkxIDAgOC4xMDQtMy41MjcgOS41MDQtNS4zNjQtLjcyOS0uODIyLTEuOTU2LTEuOTktMy41ODctMi45NTJsMS40ODktMS40NmMyLjk4MiAxLjkgNC41NzkgNC4zMjcgNC41NzkgNC4zMjd6Ii8+PC9zdmc+")}
+.my-carousel .example--active .example__toggle{border-radius:0!important}
+.my-carousel .content>:not(:first-child){margin-top:1.5em;margin-bottom:1em}
+.my-carousel .blockquote,.my-carousel .main__body blockquote{padding:1rem 1.5rem;border:1px solid #32333f;border-top:5px solid #ed145b;-webkit-box-shadow:0 .25rem .5rem 0 rgba(0,0,0,.5);box-shadow:0 .25rem .5rem 0 rgba(0,0,0,.5)}
+.my-carousel .blockquote>*,.my-carousel .main__body blockquote>*{margin:0}
+.my-carousel .select-menu{padding:1.25em;text-transform:uppercase;font-size:.6666666667em;letter-spacing:.1666666667em;border:0}
+.my-carousel .docs>*+*{border-top:1px solid #32333f}
+@media (max-width:42.4375em){.my-carousel .docs__body>*+*{border-top:1px solid #32333f}}
+.my-carousel .index>*+*{margin-top:6.1111111111em}
+.my-carousel code[class*=language-], .my-carousel pre[class*=language-]{text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:2;-moz-tab-size:2;-o-tab-size:2;tab-size:2;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}
+.my-carousel pre[class*=language-]{overflow:auto}:not(pre)>code[class*=language-]{white-space:normal}
+.my-carousel .token.block-comment,.my-carousel .token.cdata,.my-carousel .token.comment,.my-carousel .token.doctype,.my-carousel .token.prolog{color:#999}
+.my-carousel .token.punctuation{color:#c1cde5}
+.my-carousel .token.attr-name,.my-carousel .token.boolean,.my-carousel .token.deleted,.my-carousel .token.namespace,.my-carousel .token.number,.my-carousel .token.tag{color:#d75d85}
+.my-carousel .token.function-name{color:#6196cc}
+.my-carousel .token.class-name,.my-carousel .token.constant,.my-carousel .token.function,.my-carousel .token.property,.my-carousel .token.symbol{color:#f8c555}
+.my-carousel .token.atrule,.my-carousel .token.builtin,.my-carousel .token.important,.my-carousel .token.keyword,.my-carousel .token.selector{color:#8867be}
+.my-carousel .token.attr-value,.my-carousel .token.char,.my-carousel .token.regex,.my-carousel .token.string,.my-carousel .token.variable{color:#00d3ca}
+.my-carousel .token.entity,.my-carousel .token.operator,.my-carousel .token.url{color:#67cdcc}
+.my-carousel .token.bold,.my-carousel .token.important{font-weight:700}
+.my-carousel .token.italic{font-style:italic}
+.my-carousel .token.entity{cursor:help}
+.my-carousel .token.inserted{color:green}
+.my-carousel pre.line-numbers{position:relative;padding-left:3.7em;counter-reset:a}
+.my-carousel pre.line-numbers>code{position:relative;white-space:inherit}
+.my-carousel .line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:0;font-size:100%;left:-3.8em;width:3em;letter-spacing:-1px;border-right:1px solid #32333f;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.my-carousel .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:a}
+.my-carousel .line-numbers-rows>span:before{content:counter(a);color:#32333f;display:block;padding-right:.8em;text-align:right}:not(.no-js) [data-ref="fadereveal[el]"],:not(.no-js) [data-ref="slidereveal[el]"]{visibility:hidden}
+.my-carousel .ad #carbonads{display:block;overflow:hidden;padding:15px;width:100%;font-size:12px;border:1px solid #32333f;max-width:160px}
+.my-carousel .ad #carbonads a{text-decoration:none}
+.my-carousel .ad #carbonads a:hover{color:#fff}
+.my-carousel .ad .carbon-img{display:block;margin-bottom:1em}
+.my-carousel .ad .carbon-img img{display:block}
+.my-carousel .ad .carbon-text{display:block;text-align:left;color:#969fb3;margin-bottom:1em}
+.my-carousel .ad .carbon-poweredby{display:block;font-size:8px;color:#818999;font-weight:500;text-transform:uppercase;line-height:.9;letter-spacing:1px}
+.my-carousel .ad--fixed{position:fixed;right:1rem;bottom:0;z-index:100;background-color:#05070b}
+@media (min-width:77.5em){.my-carousel .ad--fixed #carbonads{border-bottom:0}}
+@media (max-width:77.4375em){.my-carousel .ad--fixed{position:static;padding:1.5rem}.my-carousel .ad--fixed #carbonads{position:relative;max-width:300px;display:block;margin:0 auto}.my-carousel .ad--fixed .carbon-wrap{display:-webkit-box;display:-ms-flexbox;display:flex}.my-carousel .ad--fixed .carbon-img{margin-bottom:0;margin-right:15px}.my-carousel .ad--fixed .carbon-poweredby{position:absolute;bottom:15px;left:160px}}
+/*# sourceMappingURL=app.css.map */

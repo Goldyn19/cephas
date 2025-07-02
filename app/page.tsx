@@ -6,10 +6,11 @@ import Skills from "./components/Skills";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
+import ContactFooter from "./components/ContactFooter";
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <AboutUs />
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <Portfolio />
       <Testimonials />
-    </>
+      <ContactFooter />
+    </div>
   );
 }

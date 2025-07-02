@@ -32,7 +32,7 @@ const Skills = () => {
           <span className="text-lg font-bold mb-2 bg-gradient-to-r from-[#A084DC] to-[#F6C6EA] bg-clip-text text-transparent">Our Skills</span>
           <h2 className="text-5xl font-extrabold mb-6 bg-gradient-to-r from-[#A084DC] to-[#F6C6EA] bg-clip-text text-transparent drop-shadow">What I Can Do?</h2>
           <p className="text-lg text-gray-100 mb-10 max-w-md">
-            Within This Portfolio, You'll Find A Curated Collection Of My Best Work, Including [Graphic Designs, Photography, Writing Samples, Etc.].
+            Within This Portfolio, You&apos;ll Find A Curated Collection Of My Best Work, Including [Graphic Designs, Photography, Writing Samples, Etc.].
           </p>
           <div className="space-y-8">
             {skills.map((skill) => (
