@@ -23,7 +23,7 @@ const Navbar = () => {
           <a href="#" className="hover:text-[#A084DC] transition">Portfolio <span className="ml-1">+</span></a>
           {/* Dropdown can be implemented here if needed */}
         </li>
-        <li><a href="#" className="hover:text-[#A084DC] transition">Contact Us</a></li>
+        <li><a href="/contact-us" className="hover:text-[#A084DC] transition">Contact Us</a></li>
       </ul>
       <a href="#" className="ml-6 px-6 py-2 bg-gradient-to-r from-[#A084DC] to-[#F6C6EA] text-white rounded-full font-bold shadow-lg hover:scale-105 transition-transform hidden md:block">Book a Consultation</a>
       {/* Hamburger Button */}
@@ -59,9 +59,9 @@ const Navbar = () => {
             <ul className="flex flex-col space-y-8 text-xl font-bold text-white mt-12">
               <li><Link href="/" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Home</Link></li>
               <li><a href="/about-us" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">About</a></li>
-              <li><a href="#" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Services</a></li>
-              <li><a href="#" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Portfolio</a></li>
-              <li><a href="#" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Contact Us</a></li>
+              <li><a href="/services" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Services</a></li>
+              <li><a href="/portfolio" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Portfolio</a></li>
+              <li><a href="/contact-us" onClick={() => setMenuOpen(false)} className="hover:text-[#A084DC] transition">Contact Us</a></li>
               <li>
                 <a href="#" onClick={() => setMenuOpen(false)} className="mt-4 px-6 py-2 bg-gradient-to-r from-[#A084DC] to-[#F6C6EA] text-white rounded-full font-bold shadow-lg hover:scale-105 transition-transform block text-center">Book a Consultation</a>
               </li>

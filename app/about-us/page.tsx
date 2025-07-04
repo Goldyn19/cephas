@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
 import Navbar from '../components/Navbar';
-import ContactFooter from '../components/ContactFooter';
+import { ContactSection, FooterSection } from '../components/ContactFooter';
 import { useEffect } from 'react';
 
 export default function AboutUsPage() {
@@ -28,11 +28,11 @@ export default function AboutUsPage() {
               <div>
                 <div className="rounded-2xl overflow-hidden shadow-xl mb-4 bg-white/20 border border-white/10">
                   <Image
-                    src="/carousel/cephas-mural.jpg"
+                    src="/about-us.jpg"
                     alt="Cephas Artworld team painting a mural"
                     width={420}
                     height={300}
-                    className="object-cover w-full h-72"
+                    className="object-cover w-full h-full"
                   />
                 </div>
                 <p className="text-gray-300 text-xs mb-2">@CephasArtworld</p>
@@ -70,7 +70,8 @@ export default function AboutUsPage() {
           </div>
         </section>
       </main>
-      <ContactFooter />
+      <ContactSection />
+      <FooterSection />
     </>
   );
 }

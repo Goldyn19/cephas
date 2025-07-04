@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    img: "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=256&h=256&q=80", // Real image
+    img: "/client1.jpg", // Real image
     quote:
       "Their attention to detail and creativity truly stood out. I was impressed by the level of professionalism and dedication they brought to every project. Highly recommended!",
     name: "Jane Doe, XYZ Company",
   },
   {
-    img: "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=256&h=256&q=80", // Placeholder
+    img: "/client2.jpg", // Placeholder
     quote: `"They brought our brand to life with custom hand-drawn elements. Creative, professional, and easy to work with."
 "Our students loved the art workshop! It was interactive, fun, and educational. We'll definitely invite them again."`,
     name: "Michael Johnson, Marketing Manager",
   },
   {
-    img: "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=256&h=256&q=80", // Placeholder
+    img: "/client3.jpg", // Placeholder
     quote:
       "Cephas Artworld turned our school walls into a vibrant learning space. The murals are not just beautiful—they inspire the kids every day.",
     name: "Michael Johnson, Marketing Manager",

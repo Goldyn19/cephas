@@ -62,7 +62,7 @@ const Hero = () => {
           {/* Image Side */}
           <div className="relative z-10 flex-1 flex items-center justify-center bg-transparent p-12">
             <img
-              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+              src="/homeimg.jpg"
               alt="Cephas Artworld sample"
               className="w-64 h-64 md:w-80 md:h-80 rounded-3xl object-cover border-8 border-[#A084DC] shadow-2xl"
             />

@@ -2,29 +2,22 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 
-// const portfolioItems = [
-//   {
-//     img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
-//   },
-//   {
-//     img: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80",
-//   },
-//   {
-//     img: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
-//   },
-//   {
-//     img: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=400&q=80",
-//   },
-//   {
-//     img: "https://images.unsplash.com/photo-1465101178521-c1a9136a3fdc?auto=format&fit=crop&w=400&q=80",
-//   },
-//   {
-//     img: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
-//   },
-//   {
-//     img: "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&q=80",
-//   },
-// ];
+const portfolioItems = [
+  { img: "/portfolio/img1.jpg" },
+  { img: "/portfolio/img2.jpg" },
+  { img: "/portfolio/img3.jpg" },
+  { img: "/portfolio/img4.jpg" },
+  { img: "/portfolio/img5.jpg" },
+  { img: "/portfolio/img6.jpg" },
+  { img: "/portfolio/img7.jpg" },
+  { img: "/portfolio/img8.jpg" },
+  { img: "/portfolio/img9.jpg" },
+  { img: "/portfolio/img10.jpg" },
+  { img: "/portfolio/img11.jpg" },
+  { img: "/portfolio/img12.jpg" },
+  { img: "/portfolio/img13.jpg" },
+  { img: "/portfolio/img14.jpg" },
+];
 
 const Portfolio = () => {
   useEffect(() => {
@@ -70,7 +63,6 @@ const Portfolio = () => {
           </span>
           <span
             className="text-5xl block font-extrabold mb-10 bg-gradient-to-r from-[#A084DC] to-[#F6C6EA] bg-clip-text text-transparent drop-shadow heading"
-            
           >
             Look What I Did
           </span>
@@ -117,11 +109,15 @@ const Portfolio = () => {
                   data-glide-el="track"
                 >
                   <ul className="frames__list glide__slides">
-                    {Array.from({ length: 14 }).map((_, idx) => (
+                    {portfolioItems.map((item, idx) => (
                       <li className="frames__item glide__slide" key={idx}>
                         <div data-ref="slidereveal[el]">
                           <div className="frame" data-ref="hero[el]">
-                            <div></div>
+                            <img
+                              src={item.img}
+                              alt={`Portfolio item ${idx + 1}`}
+                              className="w-full h-64 object-cover rounded-xl shadow-lg"
+                            />
                             <div></div>
                             <div></div>
                           </div>
