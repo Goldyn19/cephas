@@ -71,9 +71,9 @@ const Portfolio = () => {
           <div className="hero" data-component="fadereveal">
             <div className="hero__wrapper container">
               <div className="slider slider--big glide" data-component="hero">
-                <div className="slider__arrows" data-glide-el="controls">
+                <div className="slider__arrows flex flex-row gap-4 justify-center items-center" data-glide-el="controls">
                   <button
-                    className="slider__arrow slider__arrow--prev glide__arrow glide__arrow--prev"
+                    className="slider__arrow slider__arrow--prev glide__arrow glide__arrow--prev flex items-center justify-center"
                     data-ref="fadereveal[el]"
                     data-glide-dir="<"
                   >
@@ -88,7 +88,7 @@ const Portfolio = () => {
                   </button>
 
                   <button
-                    className="slider__arrow slider__arrow--next glide__arrow glide__arrow--next"
+                    className="slider__arrow slider__arrow--next glide__arrow glide__arrow--next flex items-center justify-center"
                     data-ref="fadereveal[el]"
                     data-glide-dir=">"
                   >

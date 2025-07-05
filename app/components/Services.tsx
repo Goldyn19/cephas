@@ -42,7 +42,7 @@ const Services = () => {
       initial={{ opacity: 0, x: 80 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0 }}
       className="w-full flex flex-col items-center py-24 px-4 mt-12"
     >
       <span className="text-lg font-bold mb-2 bg-gradient-to-r from-[#A084DC] to-[#F6C6EA] bg-clip-text text-transparent">Services</span>
