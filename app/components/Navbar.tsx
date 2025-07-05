@@ -16,11 +16,11 @@ const Navbar = () => {
         <li><Link href="/" className="hover:text-[#A084DC] transition">Home</Link></li>
         <li><a href="/about-us" className="hover:text-[#A084DC] transition">About</a></li>
         <li className="relative group">
-          <a href="#" className="hover:text-[#A084DC] transition">Services <span className="ml-1">+</span></a>
+          <a href="/services" className="hover:text-[#A084DC] transition">Services <span className="ml-1">+</span></a>
           {/* Dropdown can be implemented here if needed */}
         </li>
         <li className="relative group">
-          <a href="#" className="hover:text-[#A084DC] transition">Portfolio <span className="ml-1">+</span></a>
+          <a href="/portfolio" className="hover:text-[#A084DC] transition">Portfolio <span className="ml-1">+</span></a>
           {/* Dropdown can be implemented here if needed */}
         </li>
         <li><a href="/contact-us" className="hover:text-[#A084DC] transition">Contact Us</a></li>
